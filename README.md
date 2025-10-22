@@ -14,7 +14,7 @@ A simple Python wrapper around **Nmap** to automate network scans, parse open po
 ## Quick Start
 ```bash
 # Run a scan of the /24 subnet and save results to CSV
-python nmap_scan.py --targets 192.168.1.0/24 --out report.csv --args "-sV -T4"
+python nmap_scan.py --targets (enter IP here, for test use localhost) --out report.csv --args "-sV -T4"
 ```
 
 ## Notes
